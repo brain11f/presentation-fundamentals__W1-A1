@@ -9,34 +9,70 @@ header > h1 {
   color: white;
   font-size: 143px;
   margin-left: 120px;
-  display: inline;
+  display: inline-block;
   line-height: .8;
   z-index: 5;
+  width: 50px;
+  margin-bottom: 158px;
+  margin-top: 10px;
+  position: relative;
 }
-
 article:first-of-type {
-  width: 400px;
+  width: 390px;
   background-color: #cdc9dd;
-  margin: -300px 0 0 0;
+  margin: -444px 0 0 -7px;
+  height: 637px;
 }
-
 article:first-of-type img {
   width: 250px;
   margin: 250px 0 0 30px;
 }
-
 article:first-of-type h1 {
   margin-left: 180px;
   font-family: lora;
   font-style: bold italic;
   color: #5f5d66;
-
 }
 article:first-of-type section {
   margin-top: -15px;
   margin-left: 128px;
-  width: 236px;
+  width: 208px;
   font-family: lato;
   text-align: center;
   color: #6e6c77;
+  font-size: 12px;
+}
+article:nth-child(3) {
+  position: absolute;
+  top: 63px;
+  left: 271px;
+}
+article:nth-child(3) h1, p {
+  color: #fdcd84;
+}
+article:nth-child(3) p {
+  margin-top: -138px;
+  margin-left: 149px;
+  z-index: 10;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+article:nth-child(3) h1 {
+  font-family: oswald;
+  margin-left: 149px;
+  letter-spacing: 2px;
+  font-size: 35px;
+  width: 30px;
+  margin-top: 7px;
+  line-height: 1.2;
+}
+article:nth-child(3) > figure > img {
+  height: 400px;
+}
+article:nth-child(3) > section {
+  font-family: merriweather;
+  font-weight: 300;
+  width: 400px;
+  margin-left: 149px;
+  margin-top: -17px;
 }
