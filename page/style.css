@@ -1,0 +1,42 @@
+body {
+  width: 960px;
+  content: center;
+}
+
+header > h1 {
+  font-family: lato;
+  font-weight: 100;
+  color: white;
+  font-size: 143px;
+  margin-left: 120px;
+  display: inline;
+  line-height: .8;
+  z-index: 5;
+}
+
+article:first-of-type {
+  width: 400px;
+  background-color: #cdc9dd;
+  margin: -300px 0 0 0;
+}
+
+article:first-of-type img {
+  width: 250px;
+  margin: 250px 0 0 30px;
+}
+
+article:first-of-type h1 {
+  margin-left: 180px;
+  font-family: lora;
+  font-style: bold italic;
+  color: #5f5d66;
+
+}
+article:first-of-type section {
+  margin-top: -15px;
+  margin-left: 128px;
+  width: 236px;
+  font-family: lato;
+  text-align: center;
+  color: #6e6c77;
+}
