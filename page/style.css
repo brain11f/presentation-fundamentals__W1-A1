@@ -241,15 +241,15 @@ article:nth-child(8) > figure > img {
   margin-top: -54px;
 }
 article:nth-child(8) > h1 {
-      font-size: 27px;
-    margin-top: -62px;
-    line-height: 9px;
+  font-size: 27px;
+  margin-top: -62px;
+  line-height: 9px;
 }
 article:nth-child(8) > h3 {
   font-size: 18px;
-    margin-top: -23px;
-    border-bottom: 5px solid lightblue;
-    line-height: 46px;
+  margin-top: -23px;
+  border-bottom: 5px solid lightblue;
+  line-height: 46px;
 }
 article:nth-child(8) > p {
   color: white;
@@ -260,19 +260,59 @@ article:nth-child(8) > p {
   margin-left: 15px;
   margin-right: 10px;
 }
+.dashedbordertop {
+	border-top: 3px dashed #234f70;
+}
+.dashedborderbottom {
+	margin-top: 99px;
+	border-bottom: 3px dashed #234f70;
+}
 .rottentomato {
-  display: inline-flex;
-  font-size: 14px;
+	width: 100%;
+	border-top: 5px solid #3476a8;
+	border-bottom: 5px solid #3476a8;
+	float: left;
+}
+.rottentomato > p:first-child {
+	margin: 5px;
+	float: left;
+  font-size: 12.2px;
   line-height: 23px;
+	color: #75a8d0;
 }
 .rottenrating {
-  font-size: 32px;
+  font-size: 27.2px;
 }
 .rottenpercentage {
+	float: left;
+	margin: 0;
   font-size: 44px;
+	color: white;
+}
+.rottenratingbar {
+	margin-left: 15px;
+	margin-bottom: 10px;
+	padding: 2px;
+	margin-top: 70px;
+	width: 80%;
+	height: 5px;
+	background-color: #619cc9;
+}
+.rottenratingbar > span {
+	display: block;
+	width: 40%;
+	height: 100%;
+	background-color: white;
 }
 .worldpremiere {
-  font-family: oswald;
+	float: left;
+	font-family: oswald;
+}
+.worldpremiere > p:nth-child(odd) {
+	color: #75a8d0;
+}
+.worldpremiere > p:nth-child(even) {
+	color: white;
 }
 
 
