@@ -22,8 +22,9 @@ header > h1 {
 article:first-of-type {
   width: 390px;
   background-color: #cdc9dd;
-  margin: -444px 0 0 -7px;
+  margin: -444px 0 -16px -7px;
   height: 637px;
+  padding-bottom: 16px;
 }
 article:first-of-type img {
   width: 270px;
@@ -200,7 +201,7 @@ article:nth-child(6) > h1 {
   font-family: oswald;
   font-size: 35px;
 }
-article:nth-child(6) > figure > img {
+.abbeyroad {
   height: 477px;
   margin-left: -39px;
 }
@@ -208,7 +209,7 @@ article:nth-child(6) > section {
   font-family: merriweather;
   font-weight: 300;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   margin: -19px 23px 21px 23px;
   text-align: left;
 }
@@ -217,6 +218,14 @@ article:nth-child(6) > aside {
   margin-left: 23px;
   font-size: 15px;
   color: lightgray;
+}
+.map {
+  height: 94px;
+  float: right;
+  margin-top: -134px;
+  z-index: 3;
+  position: relative;
+  margin-right: -40px;
 }
 article:nth-child(7) {
   margin-left: 120px;
@@ -400,6 +409,7 @@ footer {
   display: inline-block;
   color: gray;
   font-family: lato;
+  font-weight: 300;
 }
 .footer-address {
   float: right;
@@ -407,11 +417,37 @@ footer {
   color: gray;
   font-family: merriweather;
   font-size: 12px;
+  font-weight: 100;
 }
 .footer-bold {
-  font-weight: 400;
-  color: black;
+  font-weight: 600;
+  color: gray;
 }
-
+form {
+  width: 236px;
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  border: 1px;
+  border-radius: 10px;
+  background: -webkit-linear-gradient(left top, violet , #619cc9);
+  background: -o-linear-gradient(bottom right, violet, #619cc9);
+  background: -moz-linear-gradient(bottom right, violet, #619cc9);
+  background: linear-gradient(to bottom right, violet , #619cc9);
+  padding: 0 0px 5px 14px;
+  line-height: 23px;
+  font-size: 12px;
+}
+form > h1 {
+  margin: 12px 12px;
+}
+.registration-submit {
+  background: violet;
+  border-radius: 18px;
+  line-height: 1.5;
+}
+.registration-submit:hover {
+  background: aqua;
+}
 
 
