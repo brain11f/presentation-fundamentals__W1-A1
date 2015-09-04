@@ -20,31 +20,38 @@ header > h1 {
   position: relative;
 }
 article:first-of-type {
-  width: 390px;
+  width: 331px;
   background-color: #cdc9dd;
-  margin: -444px 0 -16px -7px;
+  margin: -445px 0 -28px 23px;
   height: 637px;
   padding-bottom: 16px;
+  padding-right: 15px;
 }
 article:first-of-type img {
-  width: 270px;
-  margin: 250px 0 0 30px;
+  width: 276px;
+  margin: 230px 0px -7px 9px;
+  z-index: 6;
+  position: relative;
 }
 article:first-of-type h1 {
-  margin-left: 180px;
+  margin-left: 152px;
   font-family: lora;
   font-style: italic;
   font-weight: bold;
   color: #5f5d66;
+  line-height: 2;
+  margin-top: -15px;
 }
 article:first-of-type section {
-  margin-top: -15px;
-  margin-left: 128px;
-  width: 208px;
+  margin-top: -24px;
+  margin-left: 90px;
+  width: 234px;
   font-family: lato;
   text-align: center;
   color: #6e6c77;
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
 }
 article:nth-child(3) {
   position: absolute;
@@ -74,7 +81,9 @@ article:nth-child(3) h1 {
   line-height: 1.2;
 }
 article:nth-child(3) > a > figure > img {
-  height: 410px;
+     height: 400px;
+    margin-left: 7px;
+    margin-top: -17px;
 }
 article:nth-child(3) > section {
   font-family: merriweather;
@@ -85,7 +94,7 @@ article:nth-child(3) > section {
 }
 article:nth-child(4) {
   float: left;
-  margin-top: 75px;
+  margin-top: 97px;
   margin-left: 107px;
 }
 article:nth-child(4) > h1 {
@@ -190,7 +199,7 @@ article:nth-child(5) ul li {
   line-height: 25px;
 }
 article:nth-child(6) {
-  margin-top: 464px;
+  margin-top: 495px;
   background-color: #524741;
   padding-top: 6px;
   font-weight: 100;
@@ -315,11 +324,11 @@ article:nth-child(8) > p {
 	float: left;
 }
 .rottentomato > p:first-child {
-	margin: 5px;
-	float: left;
+	margin: 8px 5px 5px 12px;
+  float: left;
   font-size: 12.2px;
   line-height: 23px;
-	color: #75a8d0;
+  color: #75a8d0;
 }
 .rottenrating {
   font-size: 27.2px;
@@ -499,4 +508,15 @@ form > h1 {
 }
 a:hover {
   cursor: pointer ;
+}
+input[type="radio"] {
+  margin-left: 10px;
+}
+
+input:not([type="submit"]):not([type="radio"]) {
+  width: 216px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 }
