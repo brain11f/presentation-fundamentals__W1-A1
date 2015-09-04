@@ -438,7 +438,7 @@ article:nth-child(9) > p {
 footer {
   width: 730px;
   display: inline-block;
-  margin-left: 125px;
+  margin-left: 110px;
   border-top: 1px solid lightgray;
 }
 .footer-issue {
@@ -471,8 +471,9 @@ form {
   background: -moz-linear-gradient(bottom right, violet, #619cc9);
   background: linear-gradient(to bottom right, violet , #619cc9);
   padding: 0 0px 5px 14px;
-  line-height: 23px;
-  font-size: 12px;
+  line-height: 25px;
+  font-size: 12.5px;
+  z-index: 5;
 }
 form > h1 {
   margin: 12px 12px;
@@ -485,5 +486,10 @@ form > h1 {
 .registration-submit:hover {
   background: aqua;
 }
-
-
+.registration-submit:focus {
+  border: none;
+  outline: none;
+}
+a:hover {
+  cursor: pointer ;
+}
