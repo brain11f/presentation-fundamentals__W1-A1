@@ -33,7 +33,8 @@ article:first-of-type img {
 article:first-of-type h1 {
   margin-left: 180px;
   font-family: lora;
-  font-style: bold italic;
+  font-style: italic;
+  font-weight: bold;
   color: #5f5d66;
 }
 article:first-of-type section {
@@ -446,6 +447,12 @@ footer {
   color: gray;
   font-family: lato;
   font-weight: 300;
+}
+a:-webkit-any-link {
+  color: gray;
+  font-family: lato;
+  font-weight: 300;
+  text-decoration: none;
 }
 .footer-address {
   float: right;
