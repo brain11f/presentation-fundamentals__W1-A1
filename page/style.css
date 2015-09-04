@@ -5,6 +5,13 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
+.volume-number {
+  font-size: 10px;
+  font-family: lora;
+  color: lightgray;
+  letter-spacing: 1px;
+  margin-left: 315px;
+}
 header > h1 {
   font-family: lato;
   font-weight: 100;
@@ -19,7 +26,7 @@ header > h1 {
   margin-top: 10px;
   position: relative;
 }
-article:first-of-type {
+.box-model {
   width: 331px;
   background-color: #cdc9dd;
   margin: -445px 0 -28px 23px;
@@ -27,13 +34,13 @@ article:first-of-type {
   padding-bottom: 16px;
   padding-right: 15px;
 }
-article:first-of-type img {
+.box-model img {
   width: 276px;
   margin: 230px 0px -7px 9px;
   z-index: 6;
   position: relative;
 }
-article:first-of-type h1 {
+.box-model h1 {
   margin-left: 152px;
   font-family: lora;
   font-style: italic;
@@ -42,7 +49,7 @@ article:first-of-type h1 {
   line-height: 2;
   margin-top: -15px;
 }
-article:first-of-type section {
+.box-model section {
   margin-top: -24px;
   margin-left: 90px;
   width: 234px;
@@ -53,25 +60,25 @@ article:first-of-type section {
   line-height: 1.5;
   font-weight: 500;
 }
-article:nth-child(3) {
+.positioning-relative {
   position: absolute;
   top: 63px;
   left: 271px;
 }
-article:nth-child(3) > h1 {
+.positioning-relative > h1 {
   color: #fdcd84;
 }
-article:nth-child(3) > p {
+.positioning-relative > p {
 	color: #fdcd84;
 }
-article:nth-child(3) p {
+.positioning-relative p {
   margin-top: -138px;
   margin-left: 149px;
   z-index: 10;
   font-size: 12px;
   letter-spacing: 2px;
 }
-article:nth-child(3) h1 {
+.positioning-relative h1 {
   font-family: oswald;
   margin-left: 149px;
   letter-spacing: 2px;
@@ -80,24 +87,24 @@ article:nth-child(3) h1 {
   margin-top: 7px;
   line-height: 1.2;
 }
-article:nth-child(3) > a > figure > img {
-     height: 400px;
-    margin-left: 7px;
-    margin-top: -17px;
+.positioning-relative > a > figure > img {
+  height: 400px;
+  margin-left: 7px;
+  margin-top: -17px;
 }
-article:nth-child(3) > section {
+.positioning-relative > section {
   font-family: merriweather;
   font-weight: 300;
   width: 400px;
   margin-left: 149px;
   margin-top: -17px;
 }
-article:nth-child(4) {
+.staying-afloat {
   float: left;
   margin-top: 97px;
   margin-left: 107px;
 }
-article:nth-child(4) > h1 {
+.staying-afloat > h1 {
     color: #247a5a;
     font-family: oswald;
     margin-bottom: 5px;
@@ -105,18 +112,18 @@ article:nth-child(4) > h1 {
     width: 115px;
     text-align: right;
 }
-article:nth-child(4) > section {
+.staying-afloat > section {
   font-family: lato;
   font-size: 11.5px;
   line-height: 1.3;
   text-align: right;
   width: 115px;
 }
-article:nth-child(4) > a > figure > img {
+.staying-afloat > a > figure > img {
   height: 125px;
   margin-left: -36px;
 }
-article:nth-child(5) {
+.list-style {
   margin-top: 109px;
   float: left;
   margin-bottom: -91px;
@@ -128,16 +135,16 @@ article:nth-child(5) {
   padding-bottom: 8px;
   text-align: center;
 }
-article:nth-child(5) > figure > img {
+.list-style > figure > img {
   height: 190px;
 }
-article:nth-child(5) h1 {
+.list-style h1 {
   color: #c4a574;
   font-family: oswald;
   font-size: 16px;
   display: inline;
 }
-article:nth-child(5) h3 {
+.list-style h3 {
   color: #e0c167;
   font-family: lato;
   font-size: 10px;
@@ -145,23 +152,23 @@ article:nth-child(5) h3 {
   display: inline;
   vertical-align: text-top;
 }
-article:nth-child(5) ul {
+.list-style ul {
   margin-left: -65px;
-    padding: 0;
-    height: 120px;
-    top: -92px;
-    position: relative;
-    z-index: -1;
-    right: -77px;
+  padding: 0;
+  height: 120px;
+  top: -92px;
+  position: relative;
+  z-index: -1;
+  right: -77px;
 }
-article:nth-child(5) ul li {
-    list-style-type: none;
-    font-family: oswald;
-    color: #e0e0e0;
-    float: left;
-    margin-top: 52px;
-    padding-right: 16px;
-    width: 95px;
+.list-style ul li {
+  list-style-type: none;
+  font-family: oswald;
+  color: #e0e0e0;
+  float: left;
+  margin-top: 52px;
+  padding-right: 16px;
+  width: 95px;
 }
 .bullet-one {
   width: 95px;
@@ -198,7 +205,7 @@ article:nth-child(5) ul li {
   font-size: 25px;
   line-height: 25px;
 }
-article:nth-child(6) {
+.displaying-blocks {
   margin-top: 495px;
   background-color: #524741;
   padding-top: 6px;
@@ -209,7 +216,7 @@ article:nth-child(6) {
   font-size: 32px;
   height: 750px;
 }
-article:nth-child(6) > h1 {
+.displaying-blocks > h1 {
   color: white;
   font-family: oswald;
   font-size: 35px;
@@ -218,7 +225,7 @@ article:nth-child(6) > h1 {
   height: 477px;
   margin-left: -39px;
 }
-article:nth-child(6) > section {
+.displaying-blocks > section {
   font-family: merriweather;
   font-weight: 300;
   color: white;
@@ -226,7 +233,7 @@ article:nth-child(6) > section {
   margin: -19px 23px 21px 23px;
   text-align: left;
 }
-article:nth-child(6) > aside {
+.displaying-blocks > aside {
   text-align: left;
   margin-left: 23px;
   font-size: 15px;
@@ -240,25 +247,25 @@ article:nth-child(6) > aside {
   position: relative;
   margin-right: -40px;
 }
-article:nth-child(7) {
+.border-bottom-line {
   margin-left: 120px;
   position: relative;
   float: left;
 }
-article:nth-child(7) > figure > img {
+.border-bottom-line > figure > img {
   width: 579px;
   margin-left: -90px;
   margin-top: -119px;
   z-index: -1;
   position: relative;
 }
-article:nth-child(7) > section {
+.border-bottom-line > section {
   width: 496px;
   font-family: merriweather;
   font-weight: 200;
   font-size: 14.5px;
 }
-article:nth-child(7) > h1 {
+.border-bottom-line > h1 {
   font-family: oswald;
   font-size: 58px;
   font-weight: 200;
@@ -266,7 +273,7 @@ article:nth-child(7) > h1 {
   width: 496px;
   margin-top: -31px;
 }
-article:nth-child(7) > h3 {
+.border-bottom-line > h3 {
   font-family: oswald;
   margin-top: -45px;
   margin-bottom: 14px;
@@ -275,7 +282,7 @@ article:nth-child(7) > h3 {
   width: 496px;
   line-height: 67px;
 }
-article:nth-child(8) {
+.transformers {
   font-family: oswald;
   width: 196px;
   background-color: #3a83bb;
@@ -285,23 +292,23 @@ article:nth-child(8) {
   text-align: center;
   height: 548px;
 }
-article:nth-child(8) > a > figure > img {
+.transformers > a > figure > img {
   height: 246px;
   margin-left: -41px;
   margin-top: -54px;
 }
-article:nth-child(8) > h1 {
+.transformers > h1 {
   font-size: 27px;
   margin-top: -62px;
   line-height: 9px;
 }
-article:nth-child(8) > h3 {
+.transformers > h3 {
   font-size: 18px;
   margin-top: -23px;
   border-bottom: 5px solid lightblue;
   line-height: 46px;
 }
-article:nth-child(8) > p {
+.transformers > p {
   color: white;
   font-family: lora;
   font-weight: 400;
@@ -397,7 +404,7 @@ article:nth-child(8) > p {
 	height: 40px;
 	border-radius: 50%;
 }
-article:nth-child(9) {
+.overflow {
   width: 730px;
   overflow: visible;
   margin-left: 55px;
@@ -405,13 +412,13 @@ article:nth-child(9) {
   z-index: 2;
   padding-bottom: 35px;
 }
-article:nth-child(9) > figure {
-  height: 110px;
+.overflow > figure {
+  height: 140px;
 }
-article:nth-child(9) > figure > img {
+.overflow > figure > img {
   height: 300px;
 }
-article:nth-child(9) > p {
+.overflow > p {
   font-size: 13px;
   font-family: lora;
   font-style: italic;
@@ -419,31 +426,28 @@ article:nth-child(9) > p {
   width: 550px;
 }
 .overflow-one {
-  -webkit-transform: rotate(1.5deg);
-  -moz-transform: rotate(1.5deg);
-  -ms-transform: rotate(1.5deg);
-  -o-transform: rotate(1.5deg);
+  transform: rotate(1.5deg);
   text-align: right;
   margin-left: 235px;
   padding-top: 15px;
+  line-height: 1.5;
 }
 .overflow-two {
-  -webkit-transform: rotate(-1.5deg);
-  -moz-transform: rotate(-1.5deg);
-  -ms-transform: rotate(-1.5deg);
-  -o-transform: rotate(-1.5deg);
+  transform: rotate(-1.5deg);
   text-align: left;
   margin-left: 70px;
   padding-top: 10px;
-
+  line-height: 1.5;
 }
 .overflow-three {
-  -webkit-transform: rotate(1.5deg);
-  -moz-transform: rotate(1.5deg);
-  -ms-transform: rotate(1.5deg);
-  -o-transform: rotate(1.5deg);
+  transform: rotate(1.5deg);
   margin-left: 140px;
-  padding-top: 10px;
+  padding-top: 15px;
+  line-height: 1.5;
+}
+.overflow-one > span {
+  font-weight: 900;
+  color: black;
 }
 footer {
   width: 730px;
@@ -512,11 +516,9 @@ a:hover {
 input[type="radio"] {
   margin-left: 10px;
 }
-
 input:not([type="submit"]):not([type="radio"]) {
   width: 216px;
   margin: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-}
+
